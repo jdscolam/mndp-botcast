@@ -10,8 +10,7 @@ const _ = require('lodash');
 const serviceAccount = require('./info.json');
 
 exports.botcast = functions.https.onRequest((req, res) => {
-
-    if (req.method !== 'POST') {
+    if (req.method !== 'POST' && req.method !== 'OPTIONS') {
         res.status(403).send('Forbidden!');
         return;
     }
