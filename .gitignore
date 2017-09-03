@@ -111,5 +111,6 @@ crashlytics-build.properties
 fabric.properties
 
 #Ignore environment variables
+test/
 functions/.runtimeconfig.json
 functions/info.json

@@ -1,0 +1,17 @@
+{
+  "name": "mndp-botcast",
+  "version": "1.0.0",
+  "description": "MNDP bot broadcaster",
+  "main": "index.js",
+  "author": "Jon Scolamiero",
+  "license": "MIT",
+  "repository": "https://github.com/jdscolam/mndp-botcast",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cors": "^2.8.4",
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7",
+    "lodash": "^4.17.4"
+  },
+  "private": true
+}
