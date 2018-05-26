@@ -120,8 +120,6 @@ function processUser(user, show, fb){
 
         snapshot.forEach(x =>
         {
-            console.log(x.val());
-
             isDj = x.val() === user.username;
 
             if(isDj)
